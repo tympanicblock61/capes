@@ -1,0 +1,43 @@
+.capes-grid {
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    max-width: 90vw;
+}
+.Filter,.capes-grid {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.Search {
+    background-color: #808080;
+    border: solid black 0.5vw;
+    width: 30vw;
+    height: 5vh;
+}
+
+.block {
+    border: solid black 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #808080;
+    align-content: left;
+    justify-content: left;
+    min-height: 20vh;
+    min-width: 20vw;
+    overflow: expand;
+    border-radius: 1vw;
+}
+
+.block > h3 {
+    color: white;
+}
+
+.block > img {
+    border: solid darkslategray 0.5vw;
+    width: 256px;
+    height: 128px;
+}
