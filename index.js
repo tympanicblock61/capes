@@ -2,7 +2,7 @@ async function getUsernameFromUUID(uuid, maxRetries = 3, timeout = 10000) {
 
     async function fetchUsername() {
         try {
-            const response = await fetch(`https://mc-heads.net/minecraft/profile/${uuid}`)
+            const response = await fetch(`https://minecraft.tympanicblock612.repl.co/session/minecraft/profile/${uuid}`)
 
             if (response.status === 400) return null
 
