@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <script src="./index.js"></script>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <script src="./index.js"></script>
 </head>
+
 <body>
-    <header class="Filter">
-        <input id="search" class="Search" type="text" placeholder="search here">
-    </header>
-    <br>
-    <section class="capes-grid"></section>
+  <header class="Filter">
+    <input id="search" class="Search" type="text" placeholder="search here">
+    <button onclick="window.localStorage.removeItem('uuids-usernames')">Reset Cache</button>
+  </header>
+  <br>
+  <section class="capes-grid"></section>
 </body>
+
 </html>
